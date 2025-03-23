@@ -6,6 +6,7 @@ import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
 import retrofit2.Retrofit
 
+// This interface is use to define the dependency class for the application
 interface AppContainer {
     val marsPhotosRepository: MarsPhotosRepository
 }
